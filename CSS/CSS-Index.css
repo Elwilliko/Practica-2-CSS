@@ -2,7 +2,7 @@
     background: #343d46;
 }
 
-.foto1 { padding: 5px; margin: 10px; border: 2px solid black; float: left; width: 250px; }
+.foto1 img{ padding: 5px; margin: 10px; border: 2px solid black; float: left; width: 250px; }
 
 .sociales{
     float: right;
@@ -71,8 +71,25 @@
  .derecha   { float: right;border: 1px solid #CCC; background-color: #E0E0E0;}
  .izquierda { float: left;border: 1px solid #CCC;background-color: #E0E0E0;}
 
- #paginacion {
+ div.paginacion {
      border: 1px solid #CCC;
-     background-color: #E0E0E0;
-     padding: 10 px;
+     background-color: #D2D4FF;
+     padding: 50px;
+     margin-top: 5%;
  }
+
+ div.paginacion p{
+     font-size:x-large;
+     color: #8A9FFF;
+ }
+
+ .centro {
+     font-size:x-large;
+     margin-left: 500px;
+     padding: 1px;
+     border: 1px solid #4D0E01;
+     background-color: #FF423D;
+ }
+
+
+
