@@ -90,6 +90,7 @@
      border: 1px solid #4D0E01;
      background-color: #FF423D;
  }
+ div.foto3 img{ padding: 5px; margin: 10px; border: 2px solid black; float: right; width: 100px; }
 
 
 
