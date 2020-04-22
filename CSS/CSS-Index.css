@@ -90,7 +90,44 @@
      border: 1px solid #4D0E01;
      background-color: #FF423D;
  }
- div.foto3 img{ padding: 5px; margin: 10px; border: 2px solid black; float: right; width: 100px; }
+ div.foto3 img{
+     position: absolute;
+     top:  890px;
+     left: 20px;
+ }
+
+ div.rede2 img{
+     position: absolute;
+     top:  1550px;
+     left: 50px;
+
+ }
+
+ div.rede3 img{
+     position: absolute;
+     top:  1550px;
+     left: 125px;
+
+ }
+
+ div.foto4 img{
+     position: absolute;
+     top:  1600px;
+     left: 15px;
+ }
+
+ div.foto4 footer{
+     position: absolute;
+     top:  1820px;
+     left: 15px;
+
+ }
+ div.login form{
+     position: absolute;
+     top:  1900px;
+     left: 15px;
+ }
+
 
 
 
