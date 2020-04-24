@@ -62,14 +62,14 @@
      background-color:#596870 ;}
 
  #pot1 {position: absolute; top: 30px; left: 100px;}
- #tx1 {margin: 0 auto; width: 120px;  border: 2px groove #0075ea;
+ #pot1 span {margin: 0 auto; width: 120px;  border: 2px groove #0075ea;
      position: absolute; height: 20px; top: 220px;left: 40px;}
 
  #pot2{position: absolute; top: 30px; left: 650px;}
- #tx2 {margin: 0 auto; width: 120px;  border: 2px groove #0075ea;
+ #pot2 span {margin: 0 auto; width: 120px;  border: 2px groove #0075ea;
      position: absolute; height: 20px; top: 220px;left: 40px;}
  #pot3{position: absolute; top: 30px; left: 1200px;}
- #tx3 {margin: 0 auto; width: 120px;  border: 2px groove #0075ea;
+ #pot3 span {margin: 0 auto; width: 120px;  border: 2px groove #0075ea;
      position: absolute; height: 20px; top: 220px;left: 50px;}
 
 .foto2 {
@@ -95,13 +95,25 @@
  div.paginacion {
      border: 1px solid #CCC;
      background-color: #D2D4FF;
-     padding: 50px;
+     padding: 70px;
      margin-top: 5%;
+
  }
 
- div.paginacion p{
+ div.paginacion1 samp{
      font-size:x-large;
      color: #8A9FFF;
+ }
+
+ div.paginacion img{
+     position: relative;
+     left: 50px;
+     float: left;
+     width: 200px;
+     margin: 10px;
+     border: 1px solid black;
+
+
  }
 
  .centro {
@@ -146,7 +158,7 @@
 
 
  #contenedor2 { margin: 0 auto; width: 200px;  border: 2px groove #0075ea;
-     position: relative; height: 140px; top: 400px; }
+     position: relative; height: 140px; top: 350px; }
  #contenedor2 .palabra {text-align: left; float: left; width: 70%; }
  #contenedor2 .palabra > span { text-decoration: underline; }
 
